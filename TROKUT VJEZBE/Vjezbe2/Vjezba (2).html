@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Home</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(
+                    to bottom,
+                    rgba(255,255,0,05),
+                    rgba(168,196,45,0.5)
+                ), url(Images/Aegean_cat.jpg);
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+            header{
+                margin: 0 auto;
+                max-width: 1200px;
+                opacity: 0.8;
+                background-color:#F1F1F1 ;
+                background-size: 10%;
+                text-align: center;
+                margin-top: 50px;
+                border-radius: 5px;
+            }
+            .dot{
+                background-image: url(Images/pozadina.png);
+                background-repeat: repeat-x;
+                background-position: top left;
+                background-size: 5%;
+                height: 10vh;
+            }
+            .text{
+                padding: 15px 30px;
+            }
+            header > h1{
+                font-size: 30px;
+                color: purple;
+            }
+            header > p{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            a{
+                text-decoration: none;
+                color: purple;
+                font-size: large;
+            }
+            .middle{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+            }
+            .middle > h2{
+                font-size: 40px;
+                color: purple;
+                letter-spacing: 7px;
+               
+            }
+            .middle > p{
+                font-size: 20px;
+                font-style: italic;
+            }
+            .last{
+                margin: 0 auto;
+            }
+            .last > h2{
+                font-weight: bold;
+            }
+            .last > p{
+                padding-left: 40px;
+                font-size: large;
+            }
+           </style>
+    </head>
+    <body>
+        <header>
+            <div class="dot"></div>
+            <div class="text">
+                <h1>Non est veniam nostrud fugiat quis est cillum deserunt</h1>
+                <p>
+                    Magna aliqua fugiat dolore aliquip consequat in duis commodo dolor
+                    voluptate. Ea do fugiat officia duis.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">Dolore</a>
+                    </li>
+                    <li>
+                        <a href="#">Aliquip</a>
+                    </li>
+                    <li>
+                        <a href="#">Consequat</a>
+                    </li>
+                    <li>
+                        <a href="#">Dolore</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="middle">
+            <h2>APPETIZERS</h2>
+            <p>Et qui consequat fugiat irure nisi laboris dolore.</p>
+        </div>
+        <div class="last">
+            <h2>ENTREES</h2>
+            <p>Et qui consequat fugiat irure nisi laboris dolore.</p>
+            <h2>
+                Cupidatat commodo ullamco sit non dolor veniam incididunt enim velit
+                tempor sit magna officia id.
+              </h2>
+              <p>
+                Occaecat consectetur Lorem ad consectetur amet occaecat officia elit id
+                enim.
+              </p>
+        </div>
+    </body>
+</html>
