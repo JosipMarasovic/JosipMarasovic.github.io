@@ -1,0 +1,35 @@
+
+:root {
+    --clr-dark:#1f2937 ;
+    --clr-light: #d1d5db;
+    --clr-slate300: #d4d4d8;
+    --clr-slate600: #dc2626;
+    --clr-rose: #fca5a5;
+    --clr-indigo: #6366f1;
+
+}
+
+body,html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'General Sans', sans-serif;
+   
+   
+}
+
+footer,header {
+    background-color: var(--clr-indigo);
+    color: var(--clr-light);
+
+}
+
+.auto-height-iframe {
+    border: none;
+    width: 100%;
+    margin: 0;
+}
