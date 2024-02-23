@@ -1,0 +1,3 @@
+[submodule "Web-shop"]
+	path = Web-shop
+	url = https://github.com/JosipMarasovic/Web-shop.git
