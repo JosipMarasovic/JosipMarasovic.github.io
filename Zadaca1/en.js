@@ -1,0 +1,1 @@
+ document.getElementById("naslov").innerHTML = "title"
